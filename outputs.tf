@@ -6,3 +6,7 @@ output "catapp_url" {
 output "catapp_ip" {
   value = "http://${azurerm_public_ip.catapp-pip.ip_address}"
 }
+
+output "resource_group_name" {
+  value = azurerm_resource_group.myresourcegroup.name
+}
