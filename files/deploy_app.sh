@@ -11,7 +11,7 @@ cat << EOM > /var/www/html/index.html
   <!-- BEGIN -->
   <center><img src="http://${PLACEHOLDER}/${WIDTH}/${HEIGHT}"></img></center>
   <center><h2>Meow World!</h2></center>
-  Welcome to ${PREFIX}'s app. IaC is so cool. 
+  Welcome to ${PREFIX}'s Hashicat app. Terraform Cloud is pretty cool. 
   <!-- END -->
   
   </div>
